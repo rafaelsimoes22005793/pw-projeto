@@ -35,19 +35,21 @@ table {
 
   width: 80%;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 90px;
   background-color: linear-gradient(rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0.5));
 }
 td {
   width: 50%;
   color: white;
+  text-align: center;
 }
 
 table, th, td {
   border: 3px solid rgb(255, 255, 255);
   border-collapse: collapse;
   color: #eee;
+  padding: 16px;
 }
 
 .divContactos {
