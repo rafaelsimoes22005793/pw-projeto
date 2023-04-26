@@ -3,17 +3,7 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 510px){
-  
-  .fade-in-text > .divPlayground {
-    heigth: 40%;
-  }
-  
-  .divPlayground h1{
-    color:red;
-  }
-  
-}
+
 
 
 
@@ -157,6 +147,12 @@ table, th, td {
 
 
 .divPlayground h1 {
+  color: #eee;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.h1 {
   color: #eee;
   text-align: center;
   margin-top: 13%;
