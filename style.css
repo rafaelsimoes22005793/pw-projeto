@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 600px){
+  .divPlayground{
+    margin-top: 10%;
+  }
+}
+
 body {
 
   margin: 0;
@@ -27,6 +33,23 @@ body {
 }
 
 
+table {
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 220px;
+  background-color: linear-gradient(rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0.5));
+}
+td {
+  width: 50%;
+  color: white;
+}
+
+table, th, td {
+  border: 3px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  color: #eee;
+}
 
 .divContactos {
   width: 300px;
