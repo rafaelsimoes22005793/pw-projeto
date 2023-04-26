@@ -27,6 +27,16 @@ body {
   background-size: cover;
 }
 
+.divNomes > p{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #eee;
+  flex-direction: row;
+}
+
 
 table {
 
@@ -160,6 +170,13 @@ table, th, td {
 
 .resultadoConta {
   text-align: center;
+  color: #eee;
+}
+
+.nomes{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   color: #eee;
 }
 
