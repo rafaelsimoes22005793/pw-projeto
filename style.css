@@ -36,6 +36,7 @@ table {
   width: 80%;
   margin: 0 auto;
   margin-top: 220px;
+  margin-bottom: 220px;
   background-color: linear-gradient(rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0.5));
 }
 td {
@@ -152,7 +153,7 @@ table, th, td {
   margin-top: 13%;
 }
 
-.h1 {
+.fade-in-text > h1 {
   color: #eee;
   text-align: center;
   margin-top: 13%;
